@@ -29,35 +29,6 @@ class Pie
 
 	void draw () 
 	{
-		/*
-			float a_current = 0;
-		int _x = series % 20;
-		int _y = series / 20;
-		ellipseMode(RADIUS);
-		pushMatrix();
-		translate(150 + (_x * 2 * max_radius), 150 + (_y * 2 * max_radius));
-
-
-		stroke(#eeeeee);
-		line(0, -max_radius, 0, max_radius+20);
-
-		noFill();
-		ellipse(0, 0, max_radius, max_radius);
-		noStroke();
-
-		fill(#999999);
-		text(date, 2, max_radius+20);
-
-		for (int i = 0; i < 5; i++)
-		{
-			fill(colours[i]);
-			arc(0, 0, max_radius * radius, max_radius * radius, a_current, a_cont[i]+a_current);
-			a_current += a_cont[i];
-		}
-
-		popMatrix();
-		*/
-
 		int _x = series * 100 + 220;
 
 		pushMatrix();
